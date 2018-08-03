@@ -1,0 +1,26 @@
+---
+project_name: djago_table 
+install_root: /srv
+wsgi_module: hello.wsgi
+
+pythonpath: "{{ install_root }}/{{ project_name }}/display_html"
+
+project_repo: https://github.com/pythonprojectssivareddy/djago_table.git
+
+ssh_private_key: ~/.ssh/id_rsa
+
+static_root: "{{ install_root }}/{{ project_name }}/static"
+
+server_name: 192.168.56.102
+
+
+system_packages:
+  - git
+  - nginx
+  - gunicorn
+  - postgresql
+  - postgresql-server-dev-all
+  - python-pip
+  - python-dev
+  - python-psycopg2
+
