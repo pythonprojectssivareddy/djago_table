@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assemblies timestamp="05/27/2018 00:21:05">
+  <assembly name="C:\Jenkins\workspace\CITestXunit\Kngine.Common.UnitTests.Xunit\bin\Release\Kngine.Common.UnitTests.Xunit.DLL" environment="64-bit .NET 4.0.30319.42000 [collection-per-class, parallel (32 threads)]" test-framework="xUnit.net 2.3.1.3858" run-date="2018-05-27" run-time="00:21:04" config-file="C:\Tools\xunit.runner.console.2.2.0\tools\xunit.console.exe.Config" total="16" passed="16" failed="0" skipped="0" time="0.474" errors="0">
+    <errors />
+    <collection total="4" passed="4" failed="0" skipped="0" name="Test collection for Kngine.Logger.Tests.RollingCachingFileSinkTests" time="0.124">
+      <test name="Kngine.Logger.Tests.RollingCachingFileSinkTests.RollingCachingFileSinkTest" type="Kngine.Logger.Tests.RollingCachingFileSinkTests" method="RollingCachingFileSinkTest" time="0.1105916" result="Pass" />
+      <test name="Kngine.Logger.Tests.RollingCachingFileSinkTests.FlushEmptyCacheTest" type="Kngine.Logger.Tests.RollingCachingFileSinkTests" method="FlushEmptyCacheTest" time="0.0002421" result="Pass" />
+      <test name="Kngine.Logger.Tests.RollingCachingFileSinkTests.EmitTest" type="Kngine.Logger.Tests.RollingCachingFileSinkTests" method="EmitTest" time="0.0106643" result="Pass" />
+      <test name="Kngine.Logger.Tests.RollingCachingFileSinkTests.FlushTest" type="Kngine.Logger.Tests.RollingCachingFileSinkTests" method="FlushTest" time="0.002075" result="Pass" />
+    </collection>
+    <collection total="1" passed="1" failed="0" skipped="0" name="Test collection for Kngine.Strings.Tests.StemmerTests" time="0.122">
+      <test name="Kngine.Strings.Tests.StemmerTests.StemTest" type="Kngine.Strings.Tests.StemmerTests" method="StemTest" time="0.1215366" result="Pass" />
+    </collection>
+    <collection total="1" passed="1" failed="0" skipped="0" name="Test collection for Kngine.Strings.Tests.StringDistanceTests" time="0.122">
+      <test name="Kngine.Strings.Tests.StringDistanceTests.LevenshteinDistanceTest" type="Kngine.Strings.Tests.StringDistanceTests" method="LevenshteinDistanceTest" time="0.1217302" result="Pass" />
+    </collection>
+    <collection total="1" passed="1" failed="0" skipped="0" name="Test collection for Kngine.Strings.Tests.SoundExTests" time="0.122">
+      <test name="Kngine.Strings.Tests.SoundExTests.ENGenerateSoundExTest" type="Kngine.Strings.Tests.SoundExTests" method="ENGenerateSoundExTest" time="0.1216982" result="Pass" />
+    </collection>
+    <collection total="2" passed="2" failed="0" skipped="0" name="Test collection for Kngine.Strings.Tests.StringTokenizerTests" time="0.123">
+      <test name="Kngine.Strings.Tests.StringTokenizerTests.TokenizeAndBuildStringWithoutSpacesTest" type="Kngine.Strings.Tests.StringTokenizerTests" method="TokenizeAndBuildStringWithoutSpacesTest" time="0.1216279" result="Pass" />
+      <test name="Kngine.Strings.Tests.StringTokenizerTests.TokenizeTest" type="Kngine.Strings.Tests.StringTokenizerTests" method="TokenizeTest" time="0.001705" result="Pass" />
+    </collection>
+    <collection total="1" passed="1" failed="0" skipped="0" name="Test collection for Kngine.Logger.Tests.MiniLoggerConfigTests" time="0.122">
+      <test name="Kngine.Logger.Tests.MiniLoggerConfigTests.WithTest" type="Kngine.Logger.Tests.MiniLoggerConfigTests" method="WithTest" time="0.1220392" result="Pass" />
+    </collection>
+    <collection total="3" passed="3" failed="0" skipped="0" name="Test collection for Kngine.Strings.Tests.StringOpsTests" time="0.313">
+      <test name="Kngine.Strings.Tests.StringOpsTests.SplitByTwoLetterTest" type="Kngine.Strings.Tests.StringOpsTests" method="SplitByTwoLetterTest" time="0.123088" result="Pass" />
+      <test name="Kngine.Strings.Tests.StringOpsTests.FastIndexOfIgnoreCaseTest" type="Kngine.Strings.Tests.StringOpsTests" method="FastIndexOfIgnoreCaseTest" time="0.1884917" result="Pass" />
+      <test name="Kngine.Strings.Tests.StringOpsTests.FastIndexOfTest" type="Kngine.Strings.Tests.StringOpsTests" method="FastIndexOfTest" time="0.0015363" result="Pass" />
+    </collection>
+    <collection total="3" passed="3" failed="0" skipped="0" name="Test collection for Kngine.Logger.Tests.MiniLoggerTests" time="0.147">
+      <test name="Kngine.Logger.Tests.MiniLoggerTests.UnsafeLogTest" type="Kngine.Logger.Tests.MiniLoggerTests" method="UnsafeLogTest" time="0.1388923" result="Pass" />
+      <test name="Kngine.Logger.Tests.MiniLoggerTests.MiniLoggerTest" type="Kngine.Logger.Tests.MiniLoggerTests" method="MiniLoggerTest" time="0.0028145" result="Pass" />
+      <test name="Kngine.Logger.Tests.MiniLoggerTests.LogTest" type="Kngine.Logger.Tests.MiniLoggerTests" method="LogTest" time="0.0056278" result="Pass" />
+    </collection>
+  </assembly>
+</assemblies>

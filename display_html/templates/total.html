@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.floatLeft { width: 50%; float: left; }
+.floatRight {width: 50%; float: right; }
+.container { overflow: hidden; }
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers2 td, #customers2 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers2 tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers2 tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#customers2 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: blue;
+    color: white;
+}
+
+#customers3 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: orange;
+    color: white;
+}
+
+#customers3 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers2 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+</style>
+</head>
+<br>
+<div class="container">
+<div class="floatLeft">
+<table id="customers">
+
+     <th  width= "600"% ><center>Kpi indicator</center></></th>
+</table>
+
+<table id="customers2" border="2" cellspacing="10">
+    <tr>
+     {% for k, v in obj1.items %}
+       <th>{{ k }}</th>
+
+      {% endfor %}
+ </tr>
+<tr>
+{% for k,v in obj1.items %}
+            <td>{{ v }}</td>
+   {% endfor %}
+</tr>
+</table>
+</div>
+
+<div class="floatRight">
+<table id="customers3" border="2">
+
+     <th  width= "630"% ><center>Kpi Details Report</center></></th>
+</table>
+<table  align="right" id="customers2">
+{% for keys, value in obj3.items %}
+     <tr border = 1px black>
+         <th>{{ keys }}</th>
+         {% for eachval in value %}
+             <td> {{ eachval}}</td>
+         {% endfor %}
+     </tr>
+{% endfor %}
+</table>
+</div>
+</div>
+</br>
+<div>
+    <table id="customers">
+
+     <th  width= "1250"% ><center>Xunit Unit test Report  </center></></th>
+</table>
+<table id="customers2" border="3">
+<tr>
+
+    <th>Collection name</th>
+    <th>total</th>
+    <th>passed</th>
+    <th>failed</th>
+    <th>skipped</th>
+    <th>Time taken</th>
+ </tr>
+<tr>
+    {% for a in obj2 %}
+        <tr class="{% cycle 'odd' 'even' %}">
+          <td>{{ a.name }}</td>
+          <td>{{a.total }} </td>
+          <td> {{a.passed }} </td>
+          <td>{{ a.failed }}</td>
+          <td>{{ a.skipped }}</td>
+          <td>{{ a.time }}</td>
+        </tr>
+    {% endfor %}
+</tr>
+
+</table>
+</div>
+</br>
+<div>
+<table id="customers" border="2",cellspacing="10">
+
+<th  width= "1250"% ><center>MSTest Unit Test Report</center></></th>
+</table>
+<table id="customers">
+<tr>
+    <th>passed</th>
+    <th>total</th>
+    <th>failed</th>
+    <th>completed</th>
+    <th>aborted</th>
+    <th>error</th>
+ </tr>
+<tr>
+    {% for a in obj4 %}
+        <tr class="{% cycle 'odd' 'even' %}">
+          <td>{{ a.passed }}</td>
+          <td>{{ a.total }}</td>
+          <td>{{ a.failed }}</td>
+          <td>{{ a.completed }}</td>
+          <td>{{ a.aborted }}</td>
+          <td>{{ a.error }}</td>
+        </tr>
+    {% endfor %}
+</tr>
+
+</table>
+</div>
+</body>
+</html>

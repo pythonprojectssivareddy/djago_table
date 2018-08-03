@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2446346a-462d-4bc2-b0ba-463ca855083f" name="EC2AMAZ-NP4RP7T$@EC2AMAZ-NP4RP7T 2018-05-17 14:06:29" runUser="NT AUTHORITY\SYSTEM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2018-05-17T14:06:29.6841874+00:00" queuing="2018-05-17T14:06:29.6841874+00:00" start="2018-05-17T14:06:27.1373151+00:00" finish="2018-05-17T14:06:30.0591939+00:00" />
+  <TestSettings name="default" id="fa7a3ea5-829d-46b8-90b7-05bcbe7b8078">
+    <Deployment runDeploymentRoot="EC2AMAZ-NP4RP7T$_EC2AMAZ-NP4RP7T_2018-05-17_14_06_29" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="b7911604-8e3b-4906-8454-f9723f8d88bb" testId="7c46810c-9d97-7813-6dbf-cf8b45b604f6" testName="ENGenerateSoundExTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0273942" startTime="2018-05-17T14:06:29.1060502+00:00" endTime="2018-05-17T14:06:29.4810578+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7911604-8e3b-4906-8454-f9723f8d88bb" />
+    <UnitTestResult executionId="0cd7748a-fb49-4ec6-a042-422e37c3bd6e" testId="2bf43246-d873-5ace-de8a-62f233a97162" testName="StemTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0080800" startTime="2018-05-17T14:06:29.4966834+00:00" endTime="2018-05-17T14:06:29.4966834+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0cd7748a-fb49-4ec6-a042-422e37c3bd6e" />
+    <UnitTestResult executionId="66e660f5-920d-48d5-83c6-7b98fd10aa88" testId="6cd125e9-e861-7ad9-876c-5b628af9cfb0" testName="LevenshteinDistanceTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0034311" startTime="2018-05-17T14:06:29.4966834+00:00" endTime="2018-05-17T14:06:29.5123090+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66e660f5-920d-48d5-83c6-7b98fd10aa88" />
+    <UnitTestResult executionId="4527b2d2-73a9-4f73-b55c-bb89a7bd600f" testId="3fc6d303-bf34-38fc-082f-af05c5da94e3" testName="FastIndexOfTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0095473" startTime="2018-05-17T14:06:29.5123090+00:00" endTime="2018-05-17T14:06:29.5123090+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4527b2d2-73a9-4f73-b55c-bb89a7bd600f">
+      <Output>
+        <StdOut>Debug Trace:
+1
+1
+-1
+-1</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e6f56b09-dfae-4538-8240-5c9a2d9c910b" testId="8b12dc8d-9de2-26a0-f226-4428db2e2e2b" testName="FastIndexOfIgnoreCaseTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0029476" startTime="2018-05-17T14:06:29.5123090+00:00" endTime="2018-05-17T14:06:29.5279342+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6f56b09-dfae-4538-8240-5c9a2d9c910b">
+      <Output>
+        <StdOut>Debug Trace:
+1
+1
+1
+0
+1
+0
+2
+0
+-1
+0
+2
+1
+0
+-1</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e343211d-715d-4392-b506-80e1a4c6bf07" testId="170af403-abad-689e-14a6-a2aee9f3bba2" testName="SplitByTwoLetterTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0017772" startTime="2018-05-17T14:06:29.5279342+00:00" endTime="2018-05-17T14:06:29.5279342+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e343211d-715d-4392-b506-80e1a4c6bf07" />
+    <UnitTestResult executionId="d9efc053-4493-47f3-8a33-e7161b48978b" testId="05647726-a4d5-185b-5502-ddd84d399b23" testName="TokenizeTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0036618" startTime="2018-05-17T14:06:29.5279342+00:00" endTime="2018-05-17T14:06:29.5279342+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9efc053-4493-47f3-8a33-e7161b48978b" />
+    <UnitTestResult executionId="0c75794b-79f9-4137-bf8b-8e31c0fc9436" testId="cbfd9e80-3ae3-455c-ff5f-cea11a21bbd8" testName="TokenizeAndBuildStringWithoutSpacesTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0011597" startTime="2018-05-17T14:06:29.5279342+00:00" endTime="2018-05-17T14:06:29.5279342+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c75794b-79f9-4137-bf8b-8e31c0fc9436" />
+    <UnitTestResult executionId="1e85c444-819f-49f1-8c87-e8483adbe0ff" testId="69e46c75-81c7-3a30-ec99-14a7b9d1782c" testName="StopTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0056665" startTime="2018-05-17T14:06:29.5279342+00:00" endTime="2018-05-17T14:06:29.5279342+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e85c444-819f-49f1-8c87-e8483adbe0ff" />
+    <UnitTestResult executionId="6f05757a-8970-45b7-bf06-d965e1cc2f34" testId="9802b49d-37e0-2d3a-b367-da3e3514ca23" testName="TestMinmimSaveMs" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0071499" startTime="2018-05-17T14:06:29.6060606+00:00" endTime="2018-05-17T14:06:29.6060606+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f05757a-8970-45b7-bf06-d965e1cc2f34" />
+    <UnitTestResult executionId="c51bfa16-8463-4e00-91cf-6e80dd859ebc" testId="5da9a755-df7a-b8fe-a687-9f05ef0c4e97" testName="StepTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0017830" startTime="2018-05-17T14:06:29.6060606+00:00" endTime="2018-05-17T14:06:29.6060606+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c51bfa16-8463-4e00-91cf-6e80dd859ebc" />
+    <UnitTestResult executionId="6b8e4cbd-ca5a-4f3e-a47e-d7d77dd30817" testId="536d3961-70c3-e2bd-bc16-4b22a50e2a4a" testName="ToStringTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0010373" startTime="2018-05-17T14:06:29.6060606+00:00" endTime="2018-05-17T14:06:29.6060606+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b8e4cbd-ca5a-4f3e-a47e-d7d77dd30817" />
+    <UnitTestResult executionId="fa004cc9-36ae-4b12-b42f-2b176c9de7e0" testId="1c63cfe7-7aa7-5488-7b8c-64a7cd3b52b4" testName="RenderPlainTextTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0039827" startTime="2018-05-17T14:06:29.6060606+00:00" endTime="2018-05-17T14:06:29.6060606+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa004cc9-36ae-4b12-b42f-2b176c9de7e0" />
+    <UnitTestResult executionId="fe00e3b9-6f12-446b-8aba-ee0991511a7e" testId="e5c3ab4a-dd73-c936-e171-84e0bf3ca011" testName="TimingTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0030652" startTime="2018-05-17T14:06:29.6060606+00:00" endTime="2018-05-17T14:06:29.6216853+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe00e3b9-6f12-446b-8aba-ee0991511a7e" />
+    <UnitTestResult executionId="5b320a22-f3d2-4eb1-b333-bb17fc4c9004" testId="49c0fea5-702c-4865-f512-0623ec8466a3" testName="StepTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0003085" startTime="2018-05-17T14:06:29.6216853+00:00" endTime="2018-05-17T14:06:29.6216853+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b320a22-f3d2-4eb1-b333-bb17fc4c9004" />
+    <UnitTestResult executionId="0d668e7b-26cb-4c40-91e1-be38d9a29b4f" testId="6808f6ce-4ffa-9d8e-0bd6-20d896034c5b" testName="StopTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0020982" startTime="2018-05-17T14:06:29.6216853+00:00" endTime="2018-05-17T14:06:29.6216853+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d668e7b-26cb-4c40-91e1-be38d9a29b4f" />
+    <UnitTestResult executionId="64d60f89-cb7b-4777-b016-ca0acda1499a" testId="967d5fdb-0a8c-a5c7-e9ca-b6afb5d1e50a" testName="DurationWithoutChildrenMillisecondsTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0022255" startTime="2018-05-17T14:06:29.6216853+00:00" endTime="2018-05-17T14:06:29.6216853+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64d60f89-cb7b-4777-b016-ca0acda1499a" />
+    <UnitTestResult executionId="94da86b1-1e00-4c1d-aaec-9c2697d1f58f" testId="c77c0dfc-62f6-f30d-f341-10e3b9fd8015" testName="DepthTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0041493" startTime="2018-05-17T14:06:29.6216853+00:00" endTime="2018-05-17T14:06:29.6216853+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94da86b1-1e00-4c1d-aaec-9c2697d1f58f" />
+    <UnitTestResult executionId="d0df27cb-73e1-448d-9255-85882ad750a3" testId="552b92df-22b4-d653-5e3c-addcf97e9601" testName="ToStringTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0016338" startTime="2018-05-17T14:06:29.6216853+00:00" endTime="2018-05-17T14:06:29.6216853+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0df27cb-73e1-448d-9255-85882ad750a3" />
+    <UnitTestResult executionId="f0796b33-3bb5-4d75-9fe4-fc15886b4f10" testId="eca7353e-4b2c-e80f-ac10-6a05b3fd27b7" testName="SerializePrimitivesTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.1098429" startTime="2018-05-17T14:06:29.6216853+00:00" endTime="2018-05-17T14:06:29.7466876+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0796b33-3bb5-4d75-9fe4-fc15886b4f10" />
+    <UnitTestResult executionId="53719aa1-ed59-4084-a4e4-fdfd5edf934a" testId="9063c5b1-a3f0-532d-5895-35e6443123a5" testName="SerializeComplexTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0200274" startTime="2018-05-17T14:06:29.7466876+00:00" endTime="2018-05-17T14:06:29.7623133+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53719aa1-ed59-4084-a4e4-fdfd5edf934a" />
+    <UnitTestResult executionId="9330add0-4c00-423d-8e64-52c160f3477b" testId="fdd6dfee-0223-2024-b2d4-5a9f3eaec93e" testName="WithTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0007020" startTime="2018-05-17T14:06:29.7623133+00:00" endTime="2018-05-17T14:06:29.7623133+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9330add0-4c00-423d-8e64-52c160f3477b" />
+    <UnitTestResult executionId="54107327-676d-4d31-8813-9ceaeefbfcec" testId="0c158cfb-f4e4-a329-6645-ddb86fd1550a" testName="MiniLoggerTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0022126" startTime="2018-05-17T14:06:29.7623133+00:00" endTime="2018-05-17T14:06:29.7623133+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54107327-676d-4d31-8813-9ceaeefbfcec" />
+    <UnitTestResult executionId="d04c8b3d-21db-4b86-8711-706b2ebc02e7" testId="20e8dc92-e035-e006-f0c4-4da2073f3f4c" testName="LogTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0160954" startTime="2018-05-17T14:06:29.7623133+00:00" endTime="2018-05-17T14:06:29.7779389+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d04c8b3d-21db-4b86-8711-706b2ebc02e7" />
+    <UnitTestResult executionId="31b2d563-9e56-4f54-a5cc-7a544296b5cd" testId="c94ab2cb-5fdc-5cc4-2809-4500ef96864a" testName="UnsafeLogTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0115788" startTime="2018-05-17T14:06:29.7779389+00:00" endTime="2018-05-17T14:06:29.7935641+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31b2d563-9e56-4f54-a5cc-7a544296b5cd" />
+    <UnitTestResult executionId="e2f22c16-5420-4376-b233-c44cbeaca474" testId="a248e9b3-1921-c438-ee46-8661f3206a0e" testName="RollingCachingFileSinkTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0006299" startTime="2018-05-17T14:06:29.7935641+00:00" endTime="2018-05-17T14:06:29.7935641+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2f22c16-5420-4376-b233-c44cbeaca474" />
+    <UnitTestResult executionId="a1a927cd-6de1-4541-850c-eea0dd475804" testId="b46b67d8-f4ce-0229-5f0e-e95d2b23046b" testName="EmitTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0042427" startTime="2018-05-17T14:06:29.7935641+00:00" endTime="2018-05-17T14:06:29.7935641+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1a927cd-6de1-4541-850c-eea0dd475804" />
+    <UnitTestResult executionId="03d26c15-4e18-4ab6-8225-a5b3e794db00" testId="213e7530-4cb6-a101-1926-277c3f474eba" testName="FlushEmptyCacheTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0001090" startTime="2018-05-17T14:06:29.7935641+00:00" endTime="2018-05-17T14:06:29.7935641+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03d26c15-4e18-4ab6-8225-a5b3e794db00" />
+    <UnitTestResult executionId="e8c82497-2999-46b4-ab6e-7de70dbb1973" testId="5ad313a7-fcd8-e92b-a8ce-6b168882d1a4" testName="FlushTest" computerName="EC2AMAZ-NP4RP7T" duration="00:00:00.0042338" startTime="2018-05-17T14:06:29.7935641+00:00" endTime="2018-05-17T14:06:29.8091893+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8c82497-2999-46b4-ab6e-7de70dbb1973" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ENGenerateSoundExTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="7c46810c-9d97-7813-6dbf-cf8b45b604f6">
+      <Execution id="b7911604-8e3b-4906-8454-f9723f8d88bb" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Strings.Tests.SoundExTests" name="ENGenerateSoundExTest" />
+    </UnitTest>
+    <UnitTest name="StemTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="2bf43246-d873-5ace-de8a-62f233a97162">
+      <Execution id="0cd7748a-fb49-4ec6-a042-422e37c3bd6e" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Strings.Tests.StemmerTests" name="StemTest" />
+    </UnitTest>
+    <UnitTest name="LevenshteinDistanceTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="6cd125e9-e861-7ad9-876c-5b628af9cfb0">
+      <Execution id="66e660f5-920d-48d5-83c6-7b98fd10aa88" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Strings.Tests.StringDistanceTests" name="LevenshteinDistanceTest" />
+    </UnitTest>
+    <UnitTest name="FastIndexOfTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="3fc6d303-bf34-38fc-082f-af05c5da94e3">
+      <Execution id="4527b2d2-73a9-4f73-b55c-bb89a7bd600f" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Strings.Tests.StringOpsTests" name="FastIndexOfTest" />
+    </UnitTest>
+    <UnitTest name="FastIndexOfIgnoreCaseTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="8b12dc8d-9de2-26a0-f226-4428db2e2e2b">
+      <Execution id="e6f56b09-dfae-4538-8240-5c9a2d9c910b" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Strings.Tests.StringOpsTests" name="FastIndexOfIgnoreCaseTest" />
+    </UnitTest>
+    <UnitTest name="SplitByTwoLetterTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="170af403-abad-689e-14a6-a2aee9f3bba2">
+      <Execution id="e343211d-715d-4392-b506-80e1a4c6bf07" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Strings.Tests.StringOpsTests" name="SplitByTwoLetterTest" />
+    </UnitTest>
+    <UnitTest name="TokenizeTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="05647726-a4d5-185b-5502-ddd84d399b23">
+      <Execution id="d9efc053-4493-47f3-8a33-e7161b48978b" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Strings.Tests.StringTokenizerTests" name="TokenizeTest" />
+    </UnitTest>
+    <UnitTest name="TokenizeAndBuildStringWithoutSpacesTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="cbfd9e80-3ae3-455c-ff5f-cea11a21bbd8">
+      <Execution id="0c75794b-79f9-4137-bf8b-8e31c0fc9436" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Strings.Tests.StringTokenizerTests" name="TokenizeAndBuildStringWithoutSpacesTest" />
+    </UnitTest>
+    <UnitTest name="StopTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="69e46c75-81c7-3a30-ec99-14a7b9d1782c">
+      <Execution id="1e85c444-819f-49f1-8c87-e8483adbe0ff" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Profiler.Tests.MiniProfilerTests" name="StopTest" />
+    </UnitTest>
+    <UnitTest name="TestMinmimSaveMs" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="9802b49d-37e0-2d3a-b367-da3e3514ca23">
+      <Execution id="6f05757a-8970-45b7-bf06-d965e1cc2f34" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Profiler.Tests.MiniProfilerTests" name="TestMinmimSaveMs" />
+    </UnitTest>
+    <UnitTest name="StepTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="5da9a755-df7a-b8fe-a687-9f05ef0c4e97">
+      <Execution id="c51bfa16-8463-4e00-91cf-6e80dd859ebc" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Profiler.Tests.MiniProfilerTests" name="StepTest" />
+    </UnitTest>
+    <UnitTest name="ToStringTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="536d3961-70c3-e2bd-bc16-4b22a50e2a4a">
+      <Execution id="6b8e4cbd-ca5a-4f3e-a47e-d7d77dd30817" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Profiler.Tests.MiniProfilerTests" name="ToStringTest" />
+    </UnitTest>
+    <UnitTest name="RenderPlainTextTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="1c63cfe7-7aa7-5488-7b8c-64a7cd3b52b4">
+      <Execution id="fa004cc9-36ae-4b12-b42f-2b176c9de7e0" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Profiler.Tests.MiniProfilerTests" name="RenderPlainTextTest" />
+    </UnitTest>
+    <UnitTest name="TimingTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="e5c3ab4a-dd73-c936-e171-84e0bf3ca011">
+      <Execution id="fe00e3b9-6f12-446b-8aba-ee0991511a7e" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Profiler.Tests.TimingTests" name="TimingTest" />
+    </UnitTest>
+    <UnitTest name="StepTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="49c0fea5-702c-4865-f512-0623ec8466a3">
+      <Execution id="5b320a22-f3d2-4eb1-b333-bb17fc4c9004" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Profiler.Tests.TimingTests" name="StepTest" />
+    </UnitTest>
+    <UnitTest name="StopTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="6808f6ce-4ffa-9d8e-0bd6-20d896034c5b">
+      <Execution id="0d668e7b-26cb-4c40-91e1-be38d9a29b4f" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Profiler.Tests.TimingTests" name="StopTest" />
+    </UnitTest>
+    <UnitTest name="DurationWithoutChildrenMillisecondsTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="967d5fdb-0a8c-a5c7-e9ca-b6afb5d1e50a">
+      <Execution id="64d60f89-cb7b-4777-b016-ca0acda1499a" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Profiler.Tests.TimingTests" name="DurationWithoutChildrenMillisecondsTest" />
+    </UnitTest>
+    <UnitTest name="DepthTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="c77c0dfc-62f6-f30d-f341-10e3b9fd8015">
+      <Execution id="94da86b1-1e00-4c1d-aaec-9c2697d1f58f" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Profiler.Tests.TimingTests" name="DepthTest" />
+    </UnitTest>
+    <UnitTest name="ToStringTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="552b92df-22b4-d653-5e3c-addcf97e9601">
+      <Execution id="d0df27cb-73e1-448d-9255-85882ad750a3" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Profiler.Tests.TimingTests" name="ToStringTest" />
+    </UnitTest>
+    <UnitTest name="SerializePrimitivesTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="eca7353e-4b2c-e80f-ac10-6a05b3fd27b7">
+      <Execution id="f0796b33-3bb5-4d75-9fe4-fc15886b4f10" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.NetSerializer.Tests.SerializerTests" name="SerializePrimitivesTest" />
+    </UnitTest>
+    <UnitTest name="SerializeComplexTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="9063c5b1-a3f0-532d-5895-35e6443123a5">
+      <Execution id="53719aa1-ed59-4084-a4e4-fdfd5edf934a" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.NetSerializer.Tests.SerializerTests" name="SerializeComplexTest" />
+    </UnitTest>
+    <UnitTest name="WithTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="fdd6dfee-0223-2024-b2d4-5a9f3eaec93e">
+      <Execution id="9330add0-4c00-423d-8e64-52c160f3477b" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Logger.Tests.MiniLoggerConfigTests" name="WithTest" />
+    </UnitTest>
+    <UnitTest name="MiniLoggerTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="0c158cfb-f4e4-a329-6645-ddb86fd1550a">
+      <Execution id="54107327-676d-4d31-8813-9ceaeefbfcec" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Logger.Tests.MiniLoggerTests" name="MiniLoggerTest" />
+    </UnitTest>
+    <UnitTest name="LogTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="20e8dc92-e035-e006-f0c4-4da2073f3f4c">
+      <Execution id="d04c8b3d-21db-4b86-8711-706b2ebc02e7" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Logger.Tests.MiniLoggerTests" name="LogTest" />
+    </UnitTest>
+    <UnitTest name="UnsafeLogTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="c94ab2cb-5fdc-5cc4-2809-4500ef96864a">
+      <Execution id="31b2d563-9e56-4f54-a5cc-7a544296b5cd" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Logger.Tests.MiniLoggerTests" name="UnsafeLogTest" />
+    </UnitTest>
+    <UnitTest name="RollingCachingFileSinkTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="a248e9b3-1921-c438-ee46-8661f3206a0e">
+      <Execution id="e2f22c16-5420-4376-b233-c44cbeaca474" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Logger.Tests.RollingCachineFileSinkTest" name="RollingCachingFileSinkTest" />
+    </UnitTest>
+    <UnitTest name="EmitTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="b46b67d8-f4ce-0229-5f0e-e95d2b23046b">
+      <Execution id="a1a927cd-6de1-4541-850c-eea0dd475804" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Logger.Tests.RollingCachineFileSinkTest" name="EmitTest" />
+    </UnitTest>
+    <UnitTest name="FlushEmptyCacheTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="213e7530-4cb6-a101-1926-277c3f474eba">
+      <Execution id="03d26c15-4e18-4ab6-8225-a5b3e794db00" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Logger.Tests.RollingCachineFileSinkTest" name="FlushEmptyCacheTest" />
+    </UnitTest>
+    <UnitTest name="FlushTest" storage="c:\jenkins\workspace\citest_kpi\kngine.common.unittests\bin\release\kngine.common.unittests.dll" id="5ad313a7-fcd8-e92b-a8ce-6b168882d1a4">
+      <Execution id="e8c82497-2999-46b4-ab6e-7de70dbb1973" />
+      <TestMethod codeBase="C:\Jenkins\workspace\CITest_KPI\Kngine.Common.UnitTests\bin\Release\Kngine.Common.UnitTests.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="Kngine.Logger.Tests.RollingCachineFileSinkTest" name="FlushTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="7c46810c-9d97-7813-6dbf-cf8b45b604f6" executionId="b7911604-8e3b-4906-8454-f9723f8d88bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2bf43246-d873-5ace-de8a-62f233a97162" executionId="0cd7748a-fb49-4ec6-a042-422e37c3bd6e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cd125e9-e861-7ad9-876c-5b628af9cfb0" executionId="66e660f5-920d-48d5-83c6-7b98fd10aa88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3fc6d303-bf34-38fc-082f-af05c5da94e3" executionId="4527b2d2-73a9-4f73-b55c-bb89a7bd600f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b12dc8d-9de2-26a0-f226-4428db2e2e2b" executionId="e6f56b09-dfae-4538-8240-5c9a2d9c910b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="170af403-abad-689e-14a6-a2aee9f3bba2" executionId="e343211d-715d-4392-b506-80e1a4c6bf07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="05647726-a4d5-185b-5502-ddd84d399b23" executionId="d9efc053-4493-47f3-8a33-e7161b48978b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbfd9e80-3ae3-455c-ff5f-cea11a21bbd8" executionId="0c75794b-79f9-4137-bf8b-8e31c0fc9436" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69e46c75-81c7-3a30-ec99-14a7b9d1782c" executionId="1e85c444-819f-49f1-8c87-e8483adbe0ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9802b49d-37e0-2d3a-b367-da3e3514ca23" executionId="6f05757a-8970-45b7-bf06-d965e1cc2f34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5da9a755-df7a-b8fe-a687-9f05ef0c4e97" executionId="c51bfa16-8463-4e00-91cf-6e80dd859ebc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="536d3961-70c3-e2bd-bc16-4b22a50e2a4a" executionId="6b8e4cbd-ca5a-4f3e-a47e-d7d77dd30817" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c63cfe7-7aa7-5488-7b8c-64a7cd3b52b4" executionId="fa004cc9-36ae-4b12-b42f-2b176c9de7e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5c3ab4a-dd73-c936-e171-84e0bf3ca011" executionId="fe00e3b9-6f12-446b-8aba-ee0991511a7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49c0fea5-702c-4865-f512-0623ec8466a3" executionId="5b320a22-f3d2-4eb1-b333-bb17fc4c9004" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6808f6ce-4ffa-9d8e-0bd6-20d896034c5b" executionId="0d668e7b-26cb-4c40-91e1-be38d9a29b4f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="967d5fdb-0a8c-a5c7-e9ca-b6afb5d1e50a" executionId="64d60f89-cb7b-4777-b016-ca0acda1499a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c77c0dfc-62f6-f30d-f341-10e3b9fd8015" executionId="94da86b1-1e00-4c1d-aaec-9c2697d1f58f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="552b92df-22b4-d653-5e3c-addcf97e9601" executionId="d0df27cb-73e1-448d-9255-85882ad750a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eca7353e-4b2c-e80f-ac10-6a05b3fd27b7" executionId="f0796b33-3bb5-4d75-9fe4-fc15886b4f10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9063c5b1-a3f0-532d-5895-35e6443123a5" executionId="53719aa1-ed59-4084-a4e4-fdfd5edf934a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fdd6dfee-0223-2024-b2d4-5a9f3eaec93e" executionId="9330add0-4c00-423d-8e64-52c160f3477b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c158cfb-f4e4-a329-6645-ddb86fd1550a" executionId="54107327-676d-4d31-8813-9ceaeefbfcec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20e8dc92-e035-e006-f0c4-4da2073f3f4c" executionId="d04c8b3d-21db-4b86-8711-706b2ebc02e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c94ab2cb-5fdc-5cc4-2809-4500ef96864a" executionId="31b2d563-9e56-4f54-a5cc-7a544296b5cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a248e9b3-1921-c438-ee46-8661f3206a0e" executionId="e2f22c16-5420-4376-b233-c44cbeaca474" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b46b67d8-f4ce-0229-5f0e-e95d2b23046b" executionId="a1a927cd-6de1-4541-850c-eea0dd475804" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="213e7530-4cb6-a101-1926-277c3f474eba" executionId="03d26c15-4e18-4ab6-8225-a5b3e794db00" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ad313a7-fcd8-e92b-a8ce-6b168882d1a4" executionId="e8c82497-2999-46b4-ab6e-7de70dbb1973" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="29" executed="29" passed="29" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <CollectorDataEntries>
+      <Collector agentName="EC2AMAZ-NP4RP7T" uri="datacollector://microsoft/CodeCoverage/2.0" collectorDisplayName="Code Coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="EC2AMAZ-NP4RP7T\SYSTEM_EC2AMAZ-NP4RP7T 2018-05-17 14_06_27.coverage">
+            </A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+</style>
+
+</head>
+
+<body>
+
+<table id="customers">
+
+     <th  width= "1250"% ><center>Kpi indicator</center></></th>
+</table>
+
+<table id="customers">
+    <tr>
+     {% for k, v in kpi.items %}
+       <th>{{ k }}</th>
+
+      {% endfor %}
+ </tr>
+<tr>
+{% for k,v in kpi.items %}
+            <td>{{ v }}</td>
+   {% endfor %}
+</tr>
+</table>
+
+</body>
+</html>
+

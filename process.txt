@@ -1,0 +1,6 @@
+id name age  
+
+1 syda  20   10
+
+2 ram	30   12
+4 nany	89   btch

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+</style>
+</head>
+<body>
+<table id="customers">
+
+     <th  width= "1250"% ><center>Xunit Unit test Report  </center></></th>
+</table>
+<table id="customers" border="3">
+<tr>
+
+    <th>Collection name</th>
+    <th>total</th>
+    <th>passed</th>
+    <th>failed</th>
+    <th>skipped</th>
+    <th>Time taken</th>
+ </tr>
+<tr>
+    {% for a in obj %}
+        <tr class="{% cycle 'odd' 'even' %}">
+          <td>{{ a.name }}</td>
+          <td>{{a.total }} </td>
+          <td> {{a.passed }} </td>
+          <td>{{ a.failed }}</td>
+          <td>{{ a.skipped }}</td>
+          <td>{{ a.time }}</td> 
+        </tr>   
+    {% endfor %}
+</tr>
+
+</table>
+</body>
+</html>
